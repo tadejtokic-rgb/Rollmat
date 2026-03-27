@@ -2,6 +2,7 @@ package com.example.rollmat
 
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -58,6 +59,7 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun JiuJitsuAppBars() {
+    Log.d("test", "test")
     Scaffold(
         topBar = {
             TopAppBar(
